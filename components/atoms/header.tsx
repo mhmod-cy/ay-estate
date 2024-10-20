@@ -1,30 +1,84 @@
+"use client";
+import { MAX_TABLET_WIDTH } from "@/lib/constants";
 import { ROUTES } from "@/routes/routes";
 import Link from "next/link";
-import navbarLinks from "../../public/data/navbar.json";
+import { IoMenu } from "react-icons/io5";
+import { useMedia } from "react-use";
+import NAVBAR_DATA from "../../public/data/navbar.json";
 import { Container } from "../shared/container";
 import { Logo } from "../shared/logo";
 import { Button } from "../ui/button";
+import {
+	Sheet,
+	SheetContent,
+	SheetDescription,
+	SheetHeader,
+	SheetTrigger,
+} from "../ui/sheet";
 
 type Props = {};
 
 export const Header = (props: Props) => {
-  return (
-    <header>
-      <Container className="flex justify-between items-center py-[22px]">
-        <Link href={ROUTES.home.path}>
-          <Logo />
-        </Link>
-        <div className="flex items-center gap-[50px]">
-          {navbarLinks.map((link) => (
-            <Link key={link.url} href={link.url}>
-              {link.text}
-            </Link>
-          ))}
-        </div>
-        <Link href={ROUTES.contactUs.path}>
-          <Button size={"xl"}>Contact us</Button>
-        </Link>
-      </Container>
-    </header>
-  );
+	const isTablet = useMedia(`(max-width: ${MAX_TABLET_WIDTH}px)`);
+
+	return (
+		<header>
+			<Container className="flex items-center justify-between py-3 lg:py-[22px]">
+				<Link href={ROUTES.home.path} className="">
+					<Logo />
+				</Link>
+				<NavLinksContainer />
+				<Link href={ROUTES.contactUs.path} className="hidden lg:block">
+					<Button size={isTablet ? "default" : "xl"}>Contact us</Button>
+				</Link>
+			</Container>
+		</header>
+	);
+};
+
+const NavLinksContainer = () => {
+	const isTablet = useMedia(`(max-width: ${MAX_TABLET_WIDTH}px)`);
+
+	if (!isTablet) {
+		return (
+			<div className="flex flex-1 justify-center gap-[50px] lg:flex-row">
+				<NavLinks />
+			</div>
+		);
+	}
+
+	return (
+		<>
+			<Sheet>
+				<SheetTrigger>
+					<Button variant={"ghost"} size={"icon"}>
+						<IoMenu />
+					</Button>
+				</SheetTrigger>
+				<SheetContent side="left" className="w-[300px]">
+					<SheetHeader>
+						<SheetDescription className="flex flex-col gap-5 pt-10">
+							<NavLinks />
+						</SheetDescription>
+					</SheetHeader>
+				</SheetContent>
+			</Sheet>
+		</>
+	);
+};
+
+const NavLinks = () => {
+	return (
+		<>
+			{NAVBAR_DATA.map((link) => (
+				<Link
+					key={link.path}
+					href={link.path}
+					className="text-[18px] font-[600] text-grey-2 hover:text-primary"
+				>
+					{link.name}
+				</Link>
+			))}
+		</>
+	);
 };

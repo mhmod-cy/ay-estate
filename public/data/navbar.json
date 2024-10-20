@@ -1,14 +1,14 @@
 [
     {
-        "url": "/",
-        "text": "Home"
+        "path": "/",
+        "name": "Home"
     },
     {
-        "url": "/about",
-        "text": "About"
+        "path": "/about",
+        "name": "About"
     },
     {
-        "url": "/contact",
-        "text": "Contact"
+        "path": "/contact",
+        "name": "Contact"
     }
 ]
