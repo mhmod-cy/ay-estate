@@ -51,8 +51,8 @@ const NavLinksContainer = () => {
 		<>
 			<Sheet>
 				<SheetTrigger>
-					<Button variant={"ghost"} size={"icon"}>
-						<IoMenu />
+					<Button variant="ghost" className="p-0 hover:bg-transparent">
+						<IoMenu className="min-w-6 min-h-6"/>
 					</Button>
 				</SheetTrigger>
 				<SheetContent side="left" className="w-[300px]">
