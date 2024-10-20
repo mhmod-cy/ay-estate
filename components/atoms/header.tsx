@@ -24,7 +24,7 @@ export const Header = (props: Props) => {
 	return (
 		<header>
 			<Container className="flex items-center justify-between py-3 lg:py-[22px]">
-				<Link href={ROUTES.home.path} className="">
+				<Link href={ROUTES.home.path} className="invert">
 					<Logo />
 				</Link>
 				<NavLinksContainer />

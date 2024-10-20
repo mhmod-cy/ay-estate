@@ -1,0 +1,70 @@
+[
+	{
+		"title": "Pages",
+		"links": [
+			{
+				"title": "Listings",
+				"href": "/"
+			},
+			{
+				"title": "About Us",
+				"href": "/about-us"
+			},
+			{
+				"title": "Blog",
+				"href": "/blog"
+			}
+		]
+	},
+	{
+		"title": "Support",
+		"links": [
+			{
+				"title": "Properties",
+				"href": "/properties"
+			},
+			{
+				"title": "FAQ",
+				"href": "/faq"
+			},
+			{
+				"title": "Contact-us",
+				"href": "/contact-us"
+			}
+		]
+	},
+	{
+		"title": "Legal",
+		"links": [
+			{
+				"title": "terms of services",
+				"href": "/terms-of-services"
+			},
+			{
+				"title": "Terms and conditions",
+				"href": "/terms-and-conditions"
+			},
+			{
+				"title": "Complains Process",
+				"href": "/complains-process"
+			},
+			{
+				"title": "Privacy Policy",
+				"href": "/privacy-policy"
+			}
+		]
+	},
+	{
+		"title": "Platform",
+		"links": [
+			{
+				"title": "Desktop app",
+				"href": "/desktop-app"
+			},
+			{
+				"title": "Mobile app",
+				"href": "/mobile-app"
+			}
+		]
+	}
+]
