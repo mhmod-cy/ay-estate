@@ -1,5 +1,6 @@
 import { Container } from "@/components/shared/container";
 import { Button } from "@/components/ui/button";
+import { Counter } from "@/components/ui/counter";
 import InnovationData from "@/public/data/innovation.json";
 type Props = {};
 
@@ -35,7 +36,11 @@ export const Innovative = (props: Props) => {
 							className="flex flex-col gap-[8px] border-l-[2px] pl-[32px]"
 						>
 							<p className="text-[56px] font-[700] leading-[72px] lg:text-[80px] lg:leading-[104px]">
-								{item.number}
+								<Counter
+									number={Number(item.number)}
+									timeout={Number(item.counterTimeout)}
+								/>
+								%
 							</p>
 							<p className="text-[18px] font-[700] leading-[26px] lg:text-[20px] lg:leading-[28px]">
 								{item.description}
