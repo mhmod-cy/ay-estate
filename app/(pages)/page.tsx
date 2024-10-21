@@ -1,6 +1,7 @@
 import { Discover } from "@/app/(pages)/home/components/Discover";
 import { Hero } from "@/app/(pages)/home/components/Hero";
 import { Simplify } from "@/app/(pages)/home/components/Simplify";
+import { Innovative } from "./home/components/Innovative";
 
 export default function Home() {
 	return (
@@ -8,6 +9,7 @@ export default function Home() {
 			<Hero />
 			<Discover />
 			<Simplify />
+			<Innovative />
 		</div>
 	);
 }

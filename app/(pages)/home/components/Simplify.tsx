@@ -6,7 +6,7 @@ type Props = {};
 
 export const Simplify = (props: Props) => {
 	return (
-		<div className="py-[50px] lg:py-[80px]">
+		<section className="py-[50px] lg:py-[80px]">
 			<Container>
 				<h2 className="text-center text-[16px] font-[600] leading-[24px]">
 					Simplify
@@ -22,7 +22,7 @@ export const Simplify = (props: Props) => {
 
 				<div className="mt-[48px] grid grid-cols-1 gap-[48px] md:grid-cols-2 lg:mt-[80px] lg:grid-cols-3">
 					{SimplifyData.map((item) => (
-						<div>
+						<div key={item.title}>
 							<Image
 								width={300}
 								height={240}
@@ -40,6 +40,6 @@ export const Simplify = (props: Props) => {
 					))}
 				</div>
 			</Container>
-		</div>
+		</section>
 	);
 };
