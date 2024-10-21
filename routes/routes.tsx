@@ -6,5 +6,9 @@ export const ROUTES = {
     contactUs: {
         path: '/contact-us',
         name: 'Contact Us'
+    },
+    learnMore: {
+        path: '/learn-more',
+        name: 'Learn More'
     }
 }
