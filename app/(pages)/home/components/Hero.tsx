@@ -9,10 +9,10 @@ export const Hero = (props: Props) => {
 		<section className="py-[50px] lg:pb-[70px] lg:pt-[30px]">
 			<Container className="grid grid-cols-1 items-center gap-[48px] lg:grid-cols-2 lg:gap-[85px]">
 				<div>
-					<h1 className="text-center text-[56px] font-[700] leading-[1] lg:text-start">
+					<h1 className="text-center text-[36px] font-[700] leading-[44px] lg:text-start lg:text-[56px] lg:leading-[68px]">
 						Discover Your Dream Home Today
 					</h1>
-					<p className="mt-[40px] text-balance text-center leading-[22px] lg:text-start">
+					<p className="mt-[40px] text-balance text-center text-[14px] leading-[22px] lg:text-start lg:text-[18px] lg:leading-[28px]">
 						Find the perfect property that suits your lifestyle. Our real estate
 						service offers unique selling propositions that set us apart from
 						the competition. Find your perfect home today!
