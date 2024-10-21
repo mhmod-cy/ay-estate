@@ -1,6 +1,7 @@
 import { Container } from "@/components/shared/container";
 import { Button } from "@/components/ui/button";
 import { Counter } from "@/components/ui/counter";
+import { randomNumber } from "@/lib/utils";
 import InnovationData from "@/public/data/innovation.json";
 type Props = {};
 
@@ -38,7 +39,7 @@ export const Innovative = (props: Props) => {
 							<p className="text-[56px] font-[700] leading-[72px] lg:text-[80px] lg:leading-[104px]">
 								<Counter
 									number={Number(item.number)}
-									timeout={Number(item.counterTimeout)}
+									timeout={randomNumber(2000, 5000)}
 								/>
 								%
 							</p>

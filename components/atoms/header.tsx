@@ -13,6 +13,7 @@ import {
 	SheetContent,
 	SheetDescription,
 	SheetHeader,
+	SheetTitle,
 	SheetTrigger,
 } from "../ui/sheet";
 
@@ -50,13 +51,16 @@ const NavLinksContainer = () => {
 	return (
 		<>
 			<Sheet>
-				<SheetTrigger>
+				<SheetTrigger asChild>
 					<Button variant="ghost" className="p-0 hover:bg-transparent">
-						<IoMenu className="min-w-6 min-h-6"/>
+						<IoMenu className="min-h-6 min-w-6" />
 					</Button>
 				</SheetTrigger>
 				<SheetContent side="left" className="w-[300px]">
 					<SheetHeader>
+						<div className="hidden">
+							<SheetTitle>Navbar</SheetTitle>
+						</div>
 						<SheetDescription className="flex flex-col gap-5 pt-10">
 							<NavLinks />
 						</SheetDescription>
