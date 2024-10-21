@@ -1,0 +1,674 @@
+[
+	{
+		"id": 1,
+		"title": "Charming 1-bedroom apartment",
+		"image": "property-1.jpg",
+		"location": "Cairo, Egypt",
+		"price": "500"
+	},
+	{
+		"id": 2,
+		"title": "Spacious 2-bedroom flat",
+		"image": "property-2.jpg",
+		"location": "Giza, Egypt",
+		"price": "700"
+	},
+	{
+		"id": 3,
+		"title": "Luxury studio in downtown",
+		"image": "property-3.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "600"
+	},
+	{
+		"id": 4,
+		"title": "Cozy beachfront villa",
+		"image": "property-4.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "1200"
+	},
+	{
+		"id": 5,
+		"title": "Modern 3-bedroom house",
+		"image": "property-5.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "1500"
+	},
+	{
+		"id": 6,
+		"title": "Elegant 2-bedroom apartment",
+		"image": "property-6.jpg",
+		"location": "El Gouna, Egypt",
+		"price": "800"
+	},
+	{
+		"id": 7,
+		"title": "Stylish penthouse suite",
+		"image": "property-7.jpg",
+		"location": "Suez, Egypt",
+		"price": "900"
+	},
+	{
+		"id": 8,
+		"title": "Chic studio apartment",
+		"image": "property-8.jpg",
+		"location": "Aswan, Egypt",
+		"price": "450"
+	},
+	{
+		"id": 9,
+		"title": "Family-friendly 4-bedroom home",
+		"image": "property-9.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "1100"
+	},
+	{
+		"id": 10,
+		"title": "Rustic 1-bedroom cottage",
+		"image": "property-10.jpg",
+		"location": "Luxor, Egypt",
+		"price": "400"
+	},
+	{
+		"id": 11,
+		"title": "Sunny 2-bedroom apartment",
+		"image": "property-11.jpg",
+		"location": "Cairo, Egypt",
+		"price": "550"
+	},
+	{
+		"id": 12,
+		"title": "Modern 1-bedroom loft",
+		"image": "property-12.jpg",
+		"location": "Giza, Egypt",
+		"price": "650"
+	},
+	{
+		"id": 13,
+		"title": "Beachfront 3-bedroom villa",
+		"image": "property-13.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "1600"
+	},
+	{
+		"id": 14,
+		"title": "Cozy 2-bedroom flat",
+		"image": "property-14.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "720"
+	},
+	{
+		"id": 15,
+		"title": "Stylish studio in resort",
+		"image": "property-15.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "800"
+	},
+	{
+		"id": 16,
+		"title": "Elegant 4-bedroom house",
+		"image": "property-16.jpg",
+		"location": "El Gouna, Egypt",
+		"price": "1400"
+	},
+	{
+		"id": 17,
+		"title": "Charming 1-bedroom flat",
+		"image": "property-17.jpg",
+		"location": "Cairo, Egypt",
+		"price": "480"
+	},
+	{
+		"id": 18,
+		"title": "Luxury beachfront condo",
+		"image": "property-18.jpg",
+		"location": "Suez, Egypt",
+		"price": "1300"
+	},
+	{
+		"id": 19,
+		"title": "Rustic 2-bedroom cottage",
+		"image": "property-19.jpg",
+		"location": "Aswan, Egypt",
+		"price": "500"
+	},
+	{
+		"id": 20,
+		"title": "Cozy studio apartment",
+		"image": "property-20.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "380"
+	},
+	{
+		"id": 21,
+		"title": "Modern 3-bedroom flat",
+		"image": "property-21.jpg",
+		"location": "Giza, Egypt",
+		"price": "950"
+	},
+	{
+		"id": 22,
+		"title": "Stylish penthouse with view",
+		"image": "property-22.jpg",
+		"location": "Cairo, Egypt",
+		"price": "1600"
+	},
+	{
+		"id": 23,
+		"title": "Elegant 1-bedroom apartment",
+		"image": "property-23.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "600"
+	},
+	{
+		"id": 24,
+		"title": "Charming 2-bedroom villa",
+		"image": "property-24.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "1300"
+	},
+	{
+		"id": 25,
+		"title": "Family-friendly 3-bedroom home",
+		"image": "property-25.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "1150"
+	},
+	{
+		"id": 26,
+		"title": "Rustic 1-bedroom retreat",
+		"image": "property-26.jpg",
+		"location": "Luxor, Egypt",
+		"price": "420"
+	},
+	{
+		"id": 27,
+		"title": "Spacious 4-bedroom house",
+		"image": "property-27.jpg",
+		"location": "El Gouna, Egypt",
+		"price": "1700"
+	},
+	{
+		"id": 28,
+		"title": "Cozy 2-bedroom apartment",
+		"image": "property-28.jpg",
+		"location": "Cairo, Egypt",
+		"price": "580"
+	},
+	{
+		"id": 29,
+		"title": "Stylish studio in city center",
+		"image": "property-29.jpg",
+		"location": "Giza, Egypt",
+		"price": "620"
+	},
+	{
+		"id": 30,
+		"title": "Elegant beachfront villa",
+		"image": "property-30.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "1500"
+	},
+	{
+		"id": 31,
+		"title": "Charming 3-bedroom flat",
+		"image": "property-31.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "900"
+	},
+	{
+		"id": 32,
+		"title": "Modern 1-bedroom studio",
+		"image": "property-32.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "750"
+	},
+	{
+		"id": 33,
+		"title": "Family-friendly 2-bedroom home",
+		"image": "property-33.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "670"
+	},
+	{
+		"id": 34,
+		"title": "Rustic 1-bedroom cabin",
+		"image": "property-34.jpg",
+		"location": "Aswan, Egypt",
+		"price": "390"
+	},
+	{
+		"id": 35,
+		"title": "Sunny 3-bedroom apartment",
+		"image": "property-35.jpg",
+		"location": "Cairo, Egypt",
+		"price": "800"
+	},
+	{
+		"id": 36,
+		"title": "Stylish penthouse with rooftop",
+		"image": "property-36.jpg",
+		"location": "Giza, Egypt",
+		"price": "1400"
+	},
+	{
+		"id": 37,
+		"title": "Charming 2-bedroom villa",
+		"image": "property-37.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "1100"
+	},
+	{
+		"id": 38,
+		"title": "Modern 4-bedroom house",
+		"image": "property-38.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "2000"
+	},
+	{
+		"id": 39,
+		"title": "Cozy 1-bedroom studio",
+		"image": "property-39.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "450"
+	},
+	{
+		"id": 40,
+		"title": "Elegant 3-bedroom apartment",
+		"image": "property-40.jpg",
+		"location": "El Gouna, Egypt",
+		"price": "1300"
+	},
+	{
+		"id": 41,
+		"title": "Luxury 2-bedroom flat",
+		"image": "property-41.jpg",
+		"location": "Cairo, Egypt",
+		"price": "900"
+	},
+	{
+		"id": 42,
+		"title": "Family-friendly 3-bedroom home",
+		"image": "property-42.jpg",
+		"location": "Giza, Egypt",
+		"price": "1000"
+	},
+	{
+		"id": 43,
+		"title": "Stylish studio in resort",
+		"image": "property-43.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "750"
+	},
+	{
+		"id": 44,
+		"title": "Charming 1-bedroom flat",
+		"image": "property-44.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "520"
+	},
+	{
+		"id": 45,
+		"title": "Sunny 2-bedroom villa",
+		"image": "property-45.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "950"
+	},
+	{
+		"id": 46,
+		"title": "Modern 3-bedroom house",
+		"image": "property-46.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "1200"
+	},
+	{
+		"id": 47,
+		"title": "Rustic 2-bedroom retreat",
+		"image": "property-47.jpg",
+		"location": "Luxor, Egypt",
+		"price": "600"
+	},
+	{
+		"id": 48,
+		"title": "Elegant 1-bedroom apartment",
+		"image": "property-48.jpg",
+		"location": "Cairo, Egypt",
+		"price": "560"
+	},
+	{
+		"id": 49,
+		"title": "Stylish penthouse with view",
+		"image": "property-49.jpg",
+		"location": "Giza, Egypt",
+		"price": "1500"
+	},
+	{
+		"id": 50,
+		"title": "Cozy 3-bedroom flat",
+		"image": "property-50.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "950"
+	},
+	{
+		"id": 51,
+		"title": "Modern 2-bedroom condo",
+		"image": "property-51.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "850"
+	},
+	{
+		"id": 52,
+		"title": "Family-friendly 4-bedroom home",
+		"image": "property-52.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "1400"
+	},
+	{
+		"id": 53,
+		"title": "Charming 1-bedroom cabin",
+		"image": "property-53.jpg",
+		"location": "Aswan, Egypt",
+		"price": "410"
+	},
+	{
+		"id": 54,
+		"title": "Spacious 2-bedroom apartment",
+		"image": "property-54.jpg",
+		"location": "Cairo, Egypt",
+		"price": "600"
+	},
+	{
+		"id": 55,
+		"title": "Stylish studio near beach",
+		"image": "property-55.jpg",
+		"location": "Giza, Egypt",
+		"price": "700"
+	},
+	{
+		"id": 56,
+		"title": "Luxury 4-bedroom villa",
+		"image": "property-56.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "2100"
+	},
+	{
+		"id": 57,
+		"title": "Cozy 2-bedroom flat",
+		"image": "property-57.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "800"
+	},
+	{
+		"id": 58,
+		"title": "Elegant 1-bedroom apartment",
+		"image": "property-58.jpg",
+		"location": "El Gouna, Egypt",
+		"price": "650"
+	},
+	{
+		"id": 59,
+		"title": "Stylish 3-bedroom house",
+		"image": "property-59.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "1100"
+	},
+	{
+		"id": 60,
+		"title": "Charming beachfront studio",
+		"image": "property-60.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "500"
+	},
+	{
+		"id": 61,
+		"title": "Modern 2-bedroom apartment",
+		"image": "property-61.jpg",
+		"location": "Cairo, Egypt",
+		"price": "720"
+	},
+	{
+		"id": 62,
+		"title": "Stylish penthouse with balcony",
+		"image": "property-62.jpg",
+		"location": "Giza, Egypt",
+		"price": "1300"
+	},
+	{
+		"id": 63,
+		"title": "Cozy 1-bedroom cottage",
+		"image": "property-63.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "480"
+	},
+	{
+		"id": 64,
+		"title": "Luxury 3-bedroom villa",
+		"image": "property-64.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "1800"
+	},
+	{
+		"id": 65,
+		"title": "Rustic 2-bedroom home",
+		"image": "property-65.jpg",
+		"location": "Aswan, Egypt",
+		"price": "550"
+	},
+	{
+		"id": 66,
+		"title": "Charming 1-bedroom apartment",
+		"image": "property-66.jpg",
+		"location": "Cairo, Egypt",
+		"price": "490"
+	},
+	{
+		"id": 67,
+		"title": "Elegant 2-bedroom flat",
+		"image": "property-67.jpg",
+		"location": "Giza, Egypt",
+		"price": "680"
+	},
+	{
+		"id": 68,
+		"title": "Family-friendly 3-bedroom condo",
+		"image": "property-68.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "1200"
+	},
+	{
+		"id": 69,
+		"title": "Modern studio in resort",
+		"image": "property-69.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "700"
+	},
+	{
+		"id": 70,
+		"title": "Stylish 1-bedroom loft",
+		"image": "property-70.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "650"
+	},
+	{
+		"id": 71,
+		"title": "Rustic 2-bedroom cabin",
+		"image": "property-71.jpg",
+		"location": "Luxor, Egypt",
+		"price": "430"
+	},
+	{
+		"id": 72,
+		"title": "Sunny 3-bedroom apartment",
+		"image": "property-72.jpg",
+		"location": "Cairo, Egypt",
+		"price": "810"
+	},
+	{
+		"id": 73,
+		"title": "Charming beachfront villa",
+		"image": "property-73.jpg",
+		"location": "Giza, Egypt",
+		"price": "1500"
+	},
+	{
+		"id": 74,
+		"title": "Modern 2-bedroom home",
+		"image": "property-74.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "900"
+	},
+	{
+		"id": 75,
+		"title": "Stylish penthouse suite",
+		"image": "property-75.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "1600"
+	},
+	{
+		"id": 76,
+		"title": "Elegant 4-bedroom villa",
+		"image": "property-76.jpg",
+		"location": "El Gouna, Egypt",
+		"price": "2200"
+	},
+	{
+		"id": 77,
+		"title": "Cozy 1-bedroom flat",
+		"image": "property-77.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "490"
+	},
+	{
+		"id": 78,
+		"title": "Stylish studio apartment",
+		"image": "property-78.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "520"
+	},
+	{
+		"id": 79,
+		"title": "Charming 3-bedroom home",
+		"image": "property-79.jpg",
+		"location": "Cairo, Egypt",
+		"price": "1100"
+	},
+	{
+		"id": 80,
+		"title": "Modern 2-bedroom condo",
+		"image": "property-80.jpg",
+		"location": "Giza, Egypt",
+		"price": "800"
+	},
+	{
+		"id": 81,
+		"title": "Elegant 1-bedroom apartment",
+		"image": "property-81.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "600"
+	},
+	{
+		"id": 82,
+		"title": "Rustic 3-bedroom villa",
+		"image": "property-82.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "1700"
+	},
+	{
+		"id": 83,
+		"title": "Family-friendly 2-bedroom flat",
+		"image": "property-83.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "780"
+	},
+	{
+		"id": 84,
+		"title": "Charming 1-bedroom studio",
+		"image": "property-84.jpg",
+		"location": "Aswan, Egypt",
+		"price": "460"
+	},
+	{
+		"id": 85,
+		"title": "Stylish 4-bedroom house",
+		"image": "property-85.jpg",
+		"location": "Cairo, Egypt",
+		"price": "1900"
+	},
+	{
+		"id": 86,
+		"title": "Cozy 2-bedroom apartment",
+		"image": "property-86.jpg",
+		"location": "Giza, Egypt",
+		"price": "700"
+	},
+	{
+		"id": 87,
+		"title": "Elegant 3-bedroom condo",
+		"image": "property-87.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "1400"
+	},
+	{
+		"id": 88,
+		"title": "Sunny 2-bedroom villa",
+		"image": "property-88.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "1100"
+	},
+	{
+		"id": 89,
+		"title": "Luxury 1-bedroom flat",
+		"image": "property-89.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "800"
+	},
+	{
+		"id": 90,
+		"title": "Spacious 3-bedroom home",
+		"image": "property-90.jpg",
+		"location": "Mansoura, Egypt",
+		"price": "1300"
+	},
+	{
+		"id": 91,
+		"title": "Charming beachfront apartment",
+		"image": "property-91.jpg",
+		"location": "Cairo, Egypt",
+		"price": "900"
+	},
+	{
+		"id": 92,
+		"title": "Modern 2-bedroom flat",
+		"image": "property-92.jpg",
+		"location": "Giza, Egypt",
+		"price": "720"
+	},
+	{
+		"id": 93,
+		"title": "Elegant 4-bedroom villa",
+		"image": "property-93.jpg",
+		"location": "Hurghada, Egypt",
+		"price": "2000"
+	},
+	{
+		"id": 94,
+		"title": "Cozy 1-bedroom cottage",
+		"image": "property-94.jpg",
+		"location": "Sharm El Sheikh, Egypt",
+		"price": "500"
+	},
+	{
+		"id": 95,
+		"title": "Stylish 3-bedroom apartment",
+		"image": "property-95.jpg",
+		"location": "Alexandria, Egypt",
+		"price": "850"
+	},
+	{
+		"id": 96,
+		"title": "Charming 2-bedroom home",
+		"image": "property-96.jpg",
+		"location": "Cairo, Egypt",
+		"price": "900"
+	}
+]

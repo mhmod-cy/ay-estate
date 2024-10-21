@@ -10,6 +10,7 @@ type Props = {
 
 export const Counter = ({ number, timeout = 2000 }: Props) => {
   const ref = useRef<HTMLSpanElement>(null);
+  
   const isInViewport = useOnScreen(ref);
   const [currentNumber, setCurrentNumber] = useState(0);
 
