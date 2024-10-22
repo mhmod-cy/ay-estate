@@ -3,9 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 
-type Props = {};
 
-export const CTA = (props: Props) => {
+export const CTA = () => {
 	return (
 		<section className="relative overflow-hidden bg-[#111111] py-[40px] text-center text-white lg:py-[60px]">
 			<Image
@@ -30,7 +29,7 @@ export const CTA = (props: Props) => {
 				<p className="mt-[12px] text-grey-2 md:mt-[16px] lg:mt-[24px] lg:text-[18px] lg:leading-[28px]">
 					We deliver immediate business impact and long-term ROI for your brand.
 					<br className="hidden lg:block" />
-					Find out why Astheris are Australia's trusted Digital Agency.
+					Find out why Astheris are Australia &apos; s trusted Digital Agency.
 				</p>
 				<Button
 					size="xl"

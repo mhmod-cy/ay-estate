@@ -9,9 +9,8 @@ import { Button } from "@/components/ui/button";
 import faqData from "@/public/data/faq.json";
 import Link from "next/link";
 
-type Props = {};
 
-export const FAQ = (props: Props) => {
+export const FAQ = () => {
 	return (
 		<section className="py-[50px] lg:py-[100px]">
 			<Container>

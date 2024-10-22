@@ -17,9 +17,7 @@ import {
 	SheetTrigger,
 } from "../ui/sheet";
 
-type Props = {};
-
-export const Header = (props: Props) => {
+export const Header = () => {
 	const isTablet = useMedia(`(max-width: ${MAX_TABLET_WIDTH}px)`);
 
 	return (

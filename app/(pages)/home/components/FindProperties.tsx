@@ -5,9 +5,8 @@ import { randomNumber } from "@/lib/utils";
 import PropertiesData from "@/public/data/properties.json";
 import { ROUTES } from "@/routes/routes";
 import Link from "next/link";
-type Props = {};
 
-export const FindProperties = (props: Props) => {
+export const FindProperties = () => {
 	return (
 		<section className="py-[50px] lg:pb-[190px] lg:pt-[80px]">
 			<Container>

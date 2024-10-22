@@ -3,9 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Counter } from "@/components/ui/counter";
 import { randomNumber } from "@/lib/utils";
 import InnovationData from "@/public/data/innovation.json";
-type Props = {};
 
-export const Innovative = (props: Props) => {
+export const Innovative = () => {
 	return (
 		<section className="bg-[#111] py-[50px] text-white lg:py-[80px]">
 			<Container>

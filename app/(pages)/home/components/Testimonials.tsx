@@ -4,9 +4,7 @@ import { randomNumber } from "@/lib/utils";
 import testimonialsData from "@/public/data/testimonials.json";
 import { IoStar } from "react-icons/io5";
 
-type Props = {};
-
-export const Testimonials = (props: Props) => {
+export const Testimonials = () => {
 	const pickedTestimonial =
 		testimonialsData[randomNumber(0, testimonialsData.length - 1)];
 
@@ -20,8 +18,8 @@ export const Testimonials = (props: Props) => {
 					<div className="flex items-center justify-center gap-[4px]">
 						{Array(pickedTestimonial.rating)
 							.fill(0)
-							.map((_, index) => (
-								<IoStar size={20} />
+							.map((_) => (
+								<IoStar key={_} size={20} />
 							))}
 					</div>
 					<p className="mt-[24px] text-center text-[24px] font-[700] leading-[34px] lg:mt-[32px]">

@@ -5,9 +5,8 @@ import { ROUTES } from "@/routes/routes";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
-type Props = {};
 
-export const Discover = (props: Props) => {
+export const Discover = () => {
 	return (
 		<section className="py-[50px] lg:pb-[44px] lg:pt-[80px]">
 			<Container>
@@ -20,8 +19,8 @@ export const Discover = (props: Props) => {
 					</div>
 					<p className="lg-[18px] text-balance text-[16px] font-[400]">
 						At our real estate agency, we offer a range of services to help you
-						with your property needs. Whether you're looking to buy, sell, or
-						get a valuation, our experienced team is here to assist you every
+						with your property needs. Whether you&apos;re looking to buy, sell,
+						or get a valuation, our experienced team is here to assist you every
 						step of the way.
 					</p>
 				</div>

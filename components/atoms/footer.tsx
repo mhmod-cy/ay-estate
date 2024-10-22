@@ -4,14 +4,13 @@ import footerLinks from "../../public/data/footer.json";
 import { Container } from "../shared/container";
 import { Logo } from "../shared/logo";
 import { Copyrights } from "./Copyrights";
-type Props = {};
 
-export const Footer = (props: Props) => {
+export const Footer = () => {
 	return (
 		<footer className="bg-[#111111] py-[50px] text-white lg:pb-[32px] lg:pt-[100px]">
 			<Container>
 				<div className="flex flex-col lg:flex-row lg:justify-between">
-					<div className="flex flex-col gap-[34px] lg:max-w-[250px] ">
+					<div className="flex flex-col gap-[34px] lg:max-w-[250px]">
 						<Logo />
 						<div className="text-grey-2">
 							<p>{ContactsData.email}</p>

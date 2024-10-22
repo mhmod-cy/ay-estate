@@ -2,9 +2,7 @@ import { Container } from "@/components/shared/container";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-type Props = {};
-
-export const Hero = (props: Props) => {
+export const Hero = () => {
 	return (
 		<section className="py-[50px] lg:pb-[70px] lg:pt-[30px]">
 			<Container className="grid grid-cols-1 items-center gap-[48px] lg:grid-cols-2 lg:gap-[85px]">

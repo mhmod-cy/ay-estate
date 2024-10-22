@@ -1,5 +1,7 @@
+import React from "react";
+
 type Props = {
-	className?: any;
+	className?: string;
 } & React.HTMLAttributes<HTMLDivElement>;
 
 export const Container = ({ children, ...props }: Props) => {

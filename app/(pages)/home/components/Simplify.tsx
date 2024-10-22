@@ -2,9 +2,7 @@ import { Container } from "@/components/shared/container";
 import SimplifyData from "@/public/data/simplify.json";
 import Image from "next/image";
 
-type Props = {};
-
-export const Simplify = (props: Props) => {
+export const Simplify = () => {
 	return (
 		<section className="py-[50px] lg:py-[80px]">
 			<Container>
@@ -17,7 +15,7 @@ export const Simplify = (props: Props) => {
 				<p className="mt-[20px] text-balance text-center text-[16px] font-[400] leading-[24px]">
 					Our website provides a step-by-step guide to help you seamlessly
 					navigate the process of buying or selling property. From finding the
-					perfect property to closing the deal, we've got you covered.
+					perfect property to closing the deal, we&apos;ve got you covered.
 				</p>
 
 				<div className="mt-[48px] grid grid-cols-1 gap-[48px] md:grid-cols-2 lg:mt-[80px] lg:grid-cols-3">
