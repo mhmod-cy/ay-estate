@@ -20,7 +20,7 @@ export const PropertyCard = ({ data }: Props) => {
 				alt={data.title}
 			/>
 			<div className="my-[16px]">
-				<p className="text-center text-[16px] font-[600] leading-[24px] lg:text-[18px] lg:leading-[28px]">
+				<p className="text-center text-[16px] font-[600] leading-[24px] lg:text-[18px] lg:leading-[28px] truncate">
 					{data.title}
 				</p>
 				<p className="text-center text-[14px] font-[400] leading-[21px]">

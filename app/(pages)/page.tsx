@@ -1,8 +1,9 @@
 import { Discover } from "@/app/(pages)/home/components/Discover";
 import { Hero } from "@/app/(pages)/home/components/Hero";
 import { Simplify } from "@/app/(pages)/home/components/Simplify";
-import { Innovative } from "./home/components/Innovative";
 import { FindProperties } from "./home/components/FindProperties";
+import { Innovative } from "./home/components/Innovative";
+import { Testimonials } from "./home/components/Testimonials";
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<Simplify />
 			<Innovative />
 			<FindProperties />
+			<Testimonials />
 		</div>
 	);
 }
