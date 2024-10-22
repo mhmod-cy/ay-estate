@@ -5,6 +5,7 @@ import { FindProperties } from "@/app/(pages)/home/components/FindProperties";
 import { Innovative } from "@/app/(pages)/home/components/Innovative";
 import { Testimonials } from "@/app/(pages)/home/components/Testimonials";
 import { FAQ } from "@/app/(pages)/home/components/FAQ";
+import { CTA } from "./home/components/CTA";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			<FindProperties />
 			<Testimonials />
 			<FAQ />
+			<CTA />
 		</div>
 	);
 }

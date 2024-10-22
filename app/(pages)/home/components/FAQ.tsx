@@ -56,7 +56,7 @@ export const FAQ = (props: Props) => {
 
 				<div className="mt-[24px] text-center lg:mt-[50px]">
 					<Button size="xl" className="w-full lg:w-auto">
-						Learn More
+						Give a Quote
 					</Button>
 				</div>
 			</Container>
