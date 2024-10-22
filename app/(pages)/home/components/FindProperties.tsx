@@ -13,7 +13,7 @@ export const FindProperties = (props: Props) => {
 			<Container>
 				<div>
 					<h2 className="text-center text-[16px] font-[600] leading-[24px]">
-						find
+						Find
 					</h2>
 					<p className="mt-[12px] text-center text-[32px] font-[700] leading-[38px] lg:mt-[16px] lg:text-[48px] lg:leading-[56px]">
 						Properties

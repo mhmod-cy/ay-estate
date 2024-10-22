@@ -26,7 +26,7 @@ export const Discover = (props: Props) => {
 					</p>
 				</div>
 
-				<div className="mt-[48px] grid grid-cols-1 items-center gap-[24px] md:grid-cols-2 md:gap-[32px] lg:mt-[80px] lg:grid-cols-3 lg:gap-[48px]">
+				<div className="mt-[48px] grid grid-cols-1 items-start gap-[24px] md:grid-cols-2 md:gap-[32px] lg:mt-[80px] lg:grid-cols-3 lg:gap-[48px]">
 					{DiscoverData.map((item) => (
 						<div key={item.title} className="flex flex-col gap-[24px]">
 							<span className="inline-flex h-[64px] w-[64px] items-center justify-center rounded-full bg-light-grey-3">

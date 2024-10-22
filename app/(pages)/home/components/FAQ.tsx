@@ -54,8 +54,8 @@ export const FAQ = (props: Props) => {
 					</div>
 				</Accordion>
 
-				<div className="mt-[24px] text-center lg:mt-[50px]">
-					<Button size="xl" className="w-full lg:w-auto">
+				<div className="mt-[24px] text-center md:mt-[36px] lg:mt-[50px]">
+					<Button size="xl" className="w-full md:w-auto">
 						Give a Quote
 					</Button>
 				</div>

@@ -27,14 +27,14 @@ export const CTA = (props: Props) => {
 					Let’s start a<br />
 					successful project
 				</p>
-				<p className="mt-[12px] text-grey-2 lg:mt-[24px] lg:text-[18px] lg:leading-[28px]">
+				<p className="mt-[12px] text-grey-2 md:mt-[16px] lg:mt-[24px] lg:text-[18px] lg:leading-[28px]">
 					We deliver immediate business impact and long-term ROI for your brand.
 					<br className="hidden lg:block" />
 					Find out why Astheris are Australia's trusted Digital Agency.
 				</p>
 				<Button
 					size="xl"
-					className="mt-[12px] w-full rounded-full text-[18px] font-[700] lg:mt-[24px] lg:w-auto"
+					className="mt-[12px] w-full rounded-full text-[18px] font-[700] md:mt-[16px] md:w-auto lg:mt-[24px]"
 				>
 					Start A Project
 					<ArrowTopRightIcon className="ml-[10px] h-4 w-4" />
