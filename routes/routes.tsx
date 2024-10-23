@@ -7,6 +7,10 @@ export const ROUTES = {
 		path: "/property",
 		name: "Property",
 	},
+	listings: {
+		path: "/listings",
+		name: "Listings",
+	},
 	contactUs: {
 		path: "/contact-us",
 		name: "Contact Us",
