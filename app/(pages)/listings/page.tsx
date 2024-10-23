@@ -6,8 +6,9 @@ export default function Page() {
 	return (
 		<div>
 			<Container>
-				<div className="mb-[32px] mt-[48px]">
+				<div className="mb-[32px]">
 					<Breadcrumb
+						className="mt-[48px]"
 						items={[
 							{
 								href: "/",

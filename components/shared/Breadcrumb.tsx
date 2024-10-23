@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 type BreadcrumbItem = {
@@ -6,12 +7,13 @@ type BreadcrumbItem = {
 };
 
 type Props = {
-	items?: BreadcrumbItem[];
+  items?: BreadcrumbItem[];
+  className?: string;
 };
 
-export const Breadcrumb = ({ items }: Props) => {
+export const Breadcrumb = ({ items, className }: Props) => {
 	return (
-		<div className="flex items-center gap-[8px]">
+		<div className={cn("flex items-center gap-[8px]", className)}>
 			{items?.map((item, index) => (
 				<div key={index} className="contents">
 					{item.href ? (
