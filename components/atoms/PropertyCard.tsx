@@ -1,9 +1,18 @@
-import { formatPrice } from "@/lib/utils";
-import { ROUTES } from "@/routes/routes";
+import { Home } from "lucide-react";
+
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+	Card,
+	CardContent,
+	CardFooter,
+	CardHeader,
+} from "@/components/ui/card";
 import { TProperty } from "@/types";
 import Image from "next/image";
-import Link from "next/link";
-import { Button } from "../ui/button";
+import { BiBath } from "react-icons/bi";
+import { GoHeart } from "react-icons/go";
+import { MdOutlineKingBed } from "react-icons/md";
 
 type Props = {
 	data: TProperty;
@@ -11,33 +20,78 @@ type Props = {
 
 export const PropertyCard = ({ data }: Props) => {
 	return (
-		<div>
-			<Image
-				className="h-[198px] w-full object-cover lg:h-[365px] lg:rounded-[12px]"
-				src={data.image}
-				width={300}
-				height={200}
-				alt={data.title}
-			/>
-			<div className="my-[16px]">
-				<p className="text-center text-[16px] font-[600] leading-[24px] lg:text-[18px] lg:leading-[28px] truncate">
-					{data.title}
-				</p>
-				<p className="text-center text-[14px] font-[400] leading-[21px]">
-					{data.location}
-				</p>
-				<p className="mt-[8px] text-center text-[18px] font-[600] leading-[26px] lg:text-[20px] lg:leading-[30px]">
-					{formatPrice(Number(data.price))}
-				</p>
-				<Link href={`${ROUTES.property.path}/${data.id}`} className="contents">
-					<Button
-						className="mx-auto mt-[16px] min-h-[37px] w-full rounded-[12px] border-primary text-[16px] font-[600] leading-[21px] lg:border-black lg:font-normal lg:text-black"
-						variant="outline"
-					>
-						View Details
-					</Button>
-				</Link>
-			</div>
-		</div>
+		<Card className="w-full overflow-hidden border-0 shadow-none mb-[24px]">
+			<CardHeader className="relative space-y-0 p-0">
+				<Badge
+					variant="secondary"
+					className="absolute left-[24px] top-[16px] z-20 rounded-[24px] bg-black/50 px-[20px] py-[8px] text-white hover:bg-black/50"
+				>
+					Featured
+				</Badge>
+				<Button
+					variant="ghost"
+					size="icon"
+					className="absolute right-[24px] top-[16px] z-20 h-[36px] w-[36px] rounded-full bg-white/50 hover:bg-white/50"
+				>
+					<GoHeart className="h-[20px] w-[20px]" />
+				</Button>
+				<div className="relative overflow-hidden rounded-t-lg">
+					<Image
+						className="h-[200px] w-full object-cover md:h-[300px] lg:h-[400px] lg:rounded-[12px]"
+						src={data.image}
+						width={300}
+						height={200}
+						alt={data.title}
+					/>
+				</div>
+			</CardHeader>
+			<CardContent className="mt-[16px] px-0">
+				<div className="space-y-2">
+					<p className="text-[22px] font-[600] leading-[32px]">
+						{data.price} / per year / leasehold
+					</p>
+					<p className="text-[18px] font-[600] leading-[28px]">{data.title}</p>
+					<p className="mt-[4px] text-[14px] leading-[20px] text-black/90">
+						{data.location}
+					</p>
+				</div>
+			</CardContent>
+			<CardFooter className="p-0">
+				<div className="flex items-center gap-[18px] text-sm text-muted-foreground/80">
+					{data?.features?.type && (
+						<div className="flex items-center gap-[8px]">
+							<Home className="h-[18px] w-[18px]" />
+							<span className="inline-flex text-[14px] leading-[18px]">
+								{data.features.type}
+							</span>
+						</div>
+					)}
+					{data?.features?.bedrooms && (
+						<div className="flex items-center gap-[8px]">
+							<MdOutlineKingBed className="h-[18px] w-[18px]" />
+							<span className="inline-flex text-[14px] leading-[18px]">
+								{data.features?.bedrooms}
+							</span>
+						</div>
+					)}
+					{data?.features?.bathrooms && (
+						<div className="flex items-center gap-[8px]">
+							<BiBath className="h-[18px] w-[18px]" />
+							<span className="inline-flex text-[14px] leading-[18px]">
+								{data.features?.bathrooms}
+							</span>
+						</div>
+					)}
+					{data?.features?.area && (
+						<div className="flex items-center gap-[8px]">
+							<Home className="h-[18px] w-[18px]" />
+							<span className="inline-flex text-[14px] leading-[18px]">
+								{data.features?.area}
+							</span>
+						</div>
+					)}
+				</div>
+			</CardFooter>
+		</Card>
 	);
 };

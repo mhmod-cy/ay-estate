@@ -1,4 +1,4 @@
-import { PropertyCard } from "@/components/atoms/PropertyCard";
+import { PropertyCardMini } from "@/components/atoms/PropertyCardMini";
 import { Container } from "@/components/shared/container";
 import { Button } from "@/components/ui/button";
 import { randomNumber } from "@/lib/utils";
@@ -24,7 +24,7 @@ export const FindProperties = () => {
 
 				<div className="mt-[48px] grid grid-cols-2 gap-[24px] md:grid-cols-3 md:gap-[32px] lg:mt-[80px] lg:grid-cols-4 lg:gap-[48px]">
 					{PropertiesData.splice(0, 8).map((item, index) => (
-						<PropertyCard
+						<PropertyCardMini
 							key={index}
 							data={{
 								...item,

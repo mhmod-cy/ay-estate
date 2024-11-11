@@ -1,35 +1,34 @@
 "use client";
 
-import useOnScreen from "@/hooks/useOnScreen";
+import { useOnScreen } from "@/hooks/useOnScreen";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {
-  number: number;
-  timeout?: number;
+	number: number;
+	timeout?: number;
 };
 
 export const Counter = ({ number, timeout = 2000 }: Props) => {
-  const ref = useRef<HTMLSpanElement>(null);
-  
-  const isInViewport = useOnScreen(ref);
-  const [currentNumber, setCurrentNumber] = useState(0);
+	const ref = useRef<HTMLSpanElement>(null);
 
-  useEffect(() => {
-    if (!isInViewport) return;
+	const isInViewport = useOnScreen(ref);
+	const [currentNumber, setCurrentNumber] = useState(0);
 
-    const intervalId = setInterval(() => {
-      setCurrentNumber((prev) => {
-        if (prev >= number) {
-          clearInterval(intervalId);
-          return number;
-        }
-        return prev + 1;
-      });
-    }, timeout / number);
+	useEffect(() => {
+		if (!isInViewport) return;
 
-    return () => clearInterval(intervalId);
-  }, [isInViewport, number, timeout]);
+		const intervalId = setInterval(() => {
+			setCurrentNumber((prev) => {
+				if (prev >= number) {
+					clearInterval(intervalId);
+					return number;
+				}
+				return prev + 1;
+			});
+		}, timeout / number);
 
-  return <span ref={ref}>{currentNumber}</span>;
+		return () => clearInterval(intervalId);
+	}, [isInViewport, number, timeout]);
+
+	return <span ref={ref}>{currentNumber}</span>;
 };
-
