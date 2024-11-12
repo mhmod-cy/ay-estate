@@ -1,16 +1,18 @@
 [
 	{
 		"id": 1,
-		"title": "Charming 1-bedroom apartment",
+		"title": "Luxury Beach Villa",
+		"description": "Experience the ultimate in beachfront luxury with breathtaking ocean views.",
 		"image": "property-1.jpg",
 		"location": "Cairo, Egypt",
 		"price": "500",
 		"features": {
-			"type": "Apartment",
+			"type": "Villa",
 			"bedrooms": 1,
 			"bathrooms": 1,
-			"area": "50m2"
-		}
+			"area": "500m2"
+		},
+		"tags": ["beachfront", "modern", "spacious"]
 	},
 	{
 		"id": 2,
