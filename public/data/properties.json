@@ -12,7 +12,9 @@
 			"bathrooms": 1,
 			"area": "500m2"
 		},
-		"tags": ["beachfront", "modern", "spacious"]
+		"tags": ["beachfront", "modern", "spacious"],
+		"client": "John doe",
+		"date": "March 2023"
 	},
 	{
 		"id": 2,

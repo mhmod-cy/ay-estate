@@ -4,6 +4,10 @@ export type TProperty = {
 	image: string;
 	location: string;
 	price: string;
+	description: string;
+	client: string;
+	date: string;
+	tags?: string[];
 	features?: {
 		type: string;
 		bedrooms: number;
