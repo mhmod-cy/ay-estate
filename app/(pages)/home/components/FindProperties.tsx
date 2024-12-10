@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { randomNumber } from "@/lib/utils";
 import PropertiesData from "@/public/data/properties.json";
 import { ROUTES } from "@/routes/routes";
+import { TProperty } from "@/types";
 import Link from "next/link";
 
 export const FindProperties = () => {
@@ -23,7 +24,7 @@ export const FindProperties = () => {
 				</div>
 
 				<div className="mt-[48px] grid grid-cols-2 gap-[24px] md:grid-cols-3 md:gap-[32px] lg:mt-[80px] lg:grid-cols-4 lg:gap-[48px]">
-					{PropertiesData.splice(0, 8).map((item, index) => (
+					{(PropertiesData as TProperty[]).splice(0, 8).map((item, index) => (
 						<PropertyCardMini
 							key={index}
 							data={{

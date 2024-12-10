@@ -30,10 +30,11 @@ export const Hero = () => {
 				</div>
 				<Image
 					src="/images/hero.webp"
-					width={1000}
-					height={1000}
+					width={613}
+					height={400}
 					className="w-auto rounded-[16px]"
 					alt="hero image"
+					priority
 				/>
 			</Container>
 		</section>

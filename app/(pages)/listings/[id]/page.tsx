@@ -9,13 +9,9 @@ import { CaretRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 
-type TPage = {
-	params: { id: string };
-};
-
-export default async function Page({ params: { id } }: TPage) {
+export default async function Page() {
 	const orderedProperties = PropertiesData.sort((a, b) => a.id - b.id);
-	console.log("ordered", orderedProperties)
+	console.log("ordered", orderedProperties);
 	const propertyData = orderedProperties[0] as TProperty;
 	console.log(orderedProperties);
 	console.log(propertyData);

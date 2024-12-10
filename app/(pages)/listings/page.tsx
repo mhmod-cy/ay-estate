@@ -9,6 +9,7 @@ import Link from "next/link";
 import { ListingType } from "./components/ListingType";
 import { SideFilters } from "./components/SideFilters";
 import { SortDropdown } from "./components/SortDropdown";
+import { TProperty } from "@/types";
 
 type TPage = {
 	searchParams: { q: string; page: string };
@@ -61,7 +62,7 @@ export default function Page({ searchParams }: TPage) {
 					<SideFilters />
 					<div>
 						<div className="grid w-full flex-1 grid-cols-1 gap-[24px] md:grid-cols-2">
-							{currentProperties.map((item, index) => (
+							{(currentProperties as TProperty[]).map((item, index) => (
 								<Link
 									key={index}
 									href={`${ROUTES.listings.path}/${item.id}`}
@@ -88,4 +89,3 @@ export default function Page({ searchParams }: TPage) {
 		</div>
 	);
 }
-
